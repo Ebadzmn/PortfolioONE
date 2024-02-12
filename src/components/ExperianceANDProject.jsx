@@ -14,7 +14,7 @@ import Section from "./Section.jsx";
 import Html from '../assets/HTMLcard.jpeg';
 import web1 from '../assets/web1.png';
 import web2 from '../assets/WEB2.png';
-import web3 from '../assets/WEB3.png';
+import web3 from '../assets/web3.png';
 import web4 from '../assets/web4.png';
 
 import { Link } from 'react-router-dom';
