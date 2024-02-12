@@ -3,6 +3,7 @@ import BgProfile from '../assets/BgProfile.svg';
 import Profile from '../assets/PRO.jpg';
 import { motion } from "framer-motion"
 import Section from "./Section.jsx";
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     const constraintsRef = useRef(null);
@@ -46,10 +47,12 @@ const Hero = () => {
 
 <Section>
     <div className='flex justify-center gap-5 mt-14'>
-        <button
+<Link to={'https://github.com/Ebadzmn'}>
+<button
             className='btn bg-white text-black rounded-full hover:bg-gradient-to-r from-orange-400 to-purple-600 hover:text-white hover:scale-110 '>Get
             Github Profile
         </button>
+</Link>
         <button
             className='btn border border-white text-white rounded-full hover:bg-gradient-to-r from-orange-400 to-purple-600 hover:text-white hover:scale-110'>Download
             CV
