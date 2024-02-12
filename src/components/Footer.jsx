@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className=''>
 
-            <div className='w-full h-96 bg-[#191919] text-white mt-20 pt-14 '>
+            <div className='w-full md:h-[40vh] h-[65vh] bg-[#191919] text-white mt-20 pt-14 '>
 
               <div className='w-1/2 mx-auto pl-4'>
                   <h1 className='text-2xl font-bold'>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/Logo.png';
+import Logo from '../assets/LOGO3.png';
 
 const navbar = () => {
     return (
@@ -7,13 +7,13 @@ const navbar = () => {
 
             <div className=' w-full h-20 bg-[#222]'>
 
-               <div className='mx-auto max-w-7xl flex justify-between items-center w-full h-full px-2 2xl:px-24'>
+               <div className='mx-auto max-w-7xl flex justify-between items-center w-full h-full'>
 
-                <div>
-                <img src={Logo} alt="logo" className='w-24' />
+                <div className='mx-auto'>
+                <img src={Logo} alt="logo" className='w-72' />
                 </div>
 
-                <div >
+                <div className='md: hidden'>
                     <ul className='flex items-center gap-24 text-white font-medium'>
                         <li className='duration-300 hover:cursor-pointer hover:bg-white px-2 py-1 rounded hover:text-black hover:scale-105'>
                             <a href='#'>Home</a>

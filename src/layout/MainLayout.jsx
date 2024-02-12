@@ -5,7 +5,7 @@ import Footer from "../components/Footer.jsx";
 const MainLayout = ( { children } ) => {
     return (
         <div>
-            <Navbar />
+            {/*<Navbar />*/}
             { children }
             {/*<Footer />*/}
         </div>
