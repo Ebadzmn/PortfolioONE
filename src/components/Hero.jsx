@@ -36,7 +36,7 @@ const Hero = () => {
             className='bg-gradient-to-r from-orange-400 to-purple-600 bg-clip-text text-transparent'>about it!</span>
         </h1>
 
-        <p className='lg:text-gray-400 text-center lg:mt-10 mt-6 text-sm lg:text-lg'>
+        <p className='lg:text-gray-200 text-center lg:mt-10 mt-6 text-sm lg:text-lg'>
             I am a seasoned full-stack software engineer with over <br/>
             8 years of professional experience, specializing in backend development. <br/>
             My expertise lies in crafting robust and scalable SaaS-based <br/>
@@ -53,15 +53,17 @@ const Hero = () => {
             Github Profile
         </button>
 </Link>
-        <button
+        <Link to={"https://drive.google.com/file/d/10D8-laz8KjpRgrmms0nDpAI8Z2m_H0Ax/view?usp=sharing"} >
+            <button
             className='btn border border-white text-white rounded-full hover:bg-gradient-to-r from-orange-400 to-purple-600 hover:text-white hover:scale-110'>Download
             CV
-        </button>
-    </div>
-</Section>
-</motion.div>
-        </div>
-    );
-};
+            </button>
+            </Link>
+            </div>
+            </Section>
+            </motion.div>
+            </div>
+            );
+        };
 
 export default Hero;
