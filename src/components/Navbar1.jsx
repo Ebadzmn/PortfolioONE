@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../assets/LOGO3.png';
 
-const navbar = () => {
+const Navbar = () => {
     return (
         <div>
 
@@ -38,4 +38,4 @@ const navbar = () => {
     );
 };
 
-export default navbar;
+export default Navbar;

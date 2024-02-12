@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from '../components/navbar.jsx';
+import Navbar from '../components/Navbar1.jsx';
 import Hero from '../components/Hero';
 import ExperienceAndProject from '../components/ExperianceANDProject';
-import MainLayout from "../layout/MainLayout.jsx";
+// import MainLayout from "../layout/MainLayout.jsx";
 
 
 
@@ -11,11 +11,11 @@ const Home = () => {
         <div className=''>
 
 
-            <MainLayout>
+         
                 <Navbar />
                 <Hero />
                 <ExperienceAndProject />
-            </MainLayout>
+          
 
 
 
